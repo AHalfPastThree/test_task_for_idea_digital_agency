@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>123</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+	<script src="js/main.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/validation.js"></script>
+</head>
+<body>
+
+	<div class="header">
+		<div class="container-custom">
+			<div class="row">
+				<div class="logo col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<img src="img/logo.png" width="273" height="100" alt="Название компании">
+				</div>
+
+				<div class="contacts-header col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="header-telephone desc"><a href="tel:">+38(097) 977-97-97</a></div>
+					<div class="header-telephone desc"><a href="tel:">+38(050) 977-97-97</a></div>
+					<div class="mob telephones">
+						<img src="img/tel.png" alt="Связаться с нами">
+						<div class="telephones-modal">
+							<div class="close close-tel">X</div>
+							<div class="header-telephone"><a href="tel:">+38(097) 977-97-97</a></div>
+							<div class="header-telephone"><a href="tel:">+38(050) 977-97-97</a></div>
+						</div>
+					</div>
+					<div class="header-callback"><span>Обратная связь</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="menu">
+		<ul class="navigation desc">
+			<a href="#"><li><span>Главная</span> |</li></a>
+			<a href="#"><li><span>Каталог</span> |</li></a>
+			<a href="#"><li><span>Доставка и оплата</span> |</li></a>
+			<a href="#"><li><span>Прайс-лист</span> |</li></a>
+			<a href="#"><li><span>Контакты</span></li></a>
+		</ul>
+
+		<div id="nav-icon1" class="burger mob">
+			  	<span></span>
+			  	<span></span>
+			  	<span></span>
+		</div>
+
+		<div class="navigation-mob mob">
+			<span class="close close-mob-menu">X</span>
+			<ul>
+				<a href="#"><li><span>Главная</span></li></a>
+				<a href="#"><li><span>Каталог</span></li></a>
+				<a href="#"><li><span>Доставка и оплата</span></li></a>
+				<a href="#"><li><span>Прайс-лист</span></li></a>
+				<a href="#"><li><span>Контакты</span></li></a>
+			</ul>
+		</div>
+	</div>
+
+	<div class="slider">
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/slide1.png" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img src="img/slide2.png" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img src="img/Picture tz.jpg" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+	</div>
+
+	<div class="content">
+		<div class="container">
+			<div class="breadcrumbs">
+				<span><a href="#">Главная</a> /  <a href="#">Каталог</a>  /   <a href="#">Бытовая техника</a></span>
+			</div>
+
+			<div class="row">
+				<div class="leftblock col-xs-12 col-sm-12 col-md-3 col-lg-3">
+					<ul class="categories">
+						<a href="#"><li>Автомобили</li></a>
+						<li class="have-sub-categories">
+							<span class="parent-category">Бытовая техника</span>
+							<ul class="sub-categories">
+								<a href="#"><li>Микроволновки</li></a>
+								<a href="#"><li>Холодильники</li></a>
+								<a href="#"><li>Посудомоечные машины</li></a>
+								<a href="#"><li><span class="current-sub-category">Чайники</span></li></a>
+							</ul>
+						</li>
+						<a href="#"><li>Мобильная техника</li></a>
+						<a href="#"><li>Компьютеры</li></a>
+						<a href="#"><li>Одежда</li></a>
+						<a href="#"><li>Недвижимость</li></a>
+
+					</ul>
+
+					<div class="price">
+						<a href="prais tz.xlsx" download=""><img src="img/price.png"></a><br>
+						<span class="price-text">Прайс-лист</span>
+					</div>
+				</div>
+
+				<div class="centerblock col-xs-12 col-sm-12 col-md-9 col-lg-9">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="catalog-item">
+								<div class="catalog-image">
+									<img src="img/catalog-placeholder.png">
+								</div>
+								
+								<div class="catalog-info">
+									<div class="catalog-text">
+										<span>
+											Самый клевый чайник, который надо купить!
+										</span>
+									</div>
+									<div class="catalog-price">
+											<span>900 грн.</span>
+											<img src="img/cart-icon.png" class="cart-button">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="catalog-item">
+								<div class="catalog-image">
+									<img src="img/catalog-placeholder.png">
+								</div>
+								
+								<div class="catalog-info">
+									<div class="catalog-text">
+										<span>
+											Самый клевый чайник, который надо купить!
+										</span>
+									</div>
+									<div class="catalog-price">
+											<span>750 грн.</span>
+											<img src="img/cart-icon.png" class="cart-button">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="catalog-item">
+								<div class="catalog-image">
+									<img src="img/catalog-placeholder.png">
+								</div>
+								
+								<div class="catalog-info">
+									<div class="catalog-text">
+										<span>
+											Самый клевый чайник, который надо купить!
+										</span>
+									</div>
+									<div class="catalog-price">
+											<span>500 грн.</span>
+											<img src="img/cart-icon.png" class="cart-button">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="catalog-item">
+								<div class="catalog-image">
+									<img src="img/catalog-placeholder.png">
+								</div>
+								
+								<div class="catalog-info">
+									<div class="catalog-text">
+										<span>
+											Самый клевый чайник, который надо купить!
+										</span>
+									</div>
+									<div class="catalog-price">
+											<span>1 200 грн.</span>
+											<img src="img/cart-icon.png" class="cart-button">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="catalog-item">
+								<div class="catalog-image">
+									<img src="img/catalog-placeholder.png">
+								</div>
+								
+								<div class="catalog-info">
+									<div class="catalog-text">
+										<span>
+											Самый клевый чайник, который надо купить!
+										</span>
+									</div>
+									<div class="catalog-price">
+											<span>1 000 грн.</span>
+											<img src="img/cart-icon.png" class="cart-button">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<ul class="pagination">
+							<li>1</li>
+							<li>2</li>
+							<li class="current-page">3</li>
+							<li>4</li>
+							<li>5</li>
+							<li>6</li>
+							<li>7</li>
+						</ul>
+					</div>
+
+					<div class="info-block">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 info-text">
+								Компания «АЙДИА ДИДЖИТАЛ ЭДЖЕНСИ» существует уже 2 года. Мы занимаемся внедрением интернет-инструментов, которые помогают бизнесу наших клиентов расти и приносить прибыль. За это время мы создали более 20 сайтов для разных направлений бизнеса. На данный момент наш коллектив состоит из 13 сотрудников. Мы заинтересованы в постоянном развитии и стремимся предоставлять нашим клиентам качественные услуги. Девиз нашей компании «КРЕАТИВ И КОММУНИКАЦИИ В СТИЛЕ ROCK'N'ROLL»
+							</div>
+
+							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 info-text">
+								Вторым направлением нашей деятельности является интернет-маркетинг. На данный момент мы работаем с более чем 20 постоянными клиентами в разных сферах интернет-маркетинга. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения и рекламы в социальных сетях. На данный момент отдел маркетинга состоит из 6 человек под руководством ведущего специалиста. Отдел маркетинга тесно сотрудничает с отделом разработки.
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container-custom">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<span>© 2012–2018 ООО «Пиксель»<br>
+					info@name.com</span>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<ul class="footer-menu">
+						<a href="#"><li><span>Главная</span></li></a>
+						<a href="#"><li><span>Каталог</span></li></a>
+						<a href="#"><li><span>Доставка и оплата</span></li></a>
+						<a href="#"><li><span>Прайс-лист</span></li></a>
+						<a href="#"><li><span>Контакты</span></li></a>
+					</ul>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="created">
+						<img src="img/footer-logo.png">
+						<div class="created-by">Разработка сайта — <br>
+						компания IdeaDigital.Agency</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="feedback">
+		<div class="feedback-form">
+			<div class="cross">
+				<img src="img/cross.png">
+			</div>
+
+			<form action="" method="POST" class="form-to-validate">
+				<div class="feedback-heading">
+					Обратная связь
+				</div>
+				<label>Ваше имя *</label><br>
+				<input type="text" name="name"><br>
+				<label>Телефон *</label><br>
+				<input type="text" name="tel" class="tel"><br>
+				<label>Email *</label><br>
+				<input type="text" name="email" class="email"><br>
+				<label>Сообщение</label><br>
+				<textarea></textarea><br>
+				<button type="submit" name="go" class="feedback-button">Отправить</button>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
